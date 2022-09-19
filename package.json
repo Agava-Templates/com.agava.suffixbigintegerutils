@@ -1,0 +1,7 @@
+{
+  "name": "com.agava.suffixbigintegerutils",
+  "version": "1.0.0",
+  "displayName": "Suffix BigInteger Utils",
+  "unity": "2020.3",
+  "description": "Implementation of BigInteger conversion to suffix string."
+}

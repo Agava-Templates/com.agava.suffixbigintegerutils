@@ -1,0 +1,14 @@
+{
+    "name": "Agava.SuffixBigIntegerUtils",
+    "rootNamespace": "Agava.SuffixBigIntegerUtils",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
