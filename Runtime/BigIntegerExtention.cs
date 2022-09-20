@@ -20,7 +20,7 @@ namespace Agava.SuffixBigIntegerUtils
             _complexSuffixes = complexSuffixes.ToArray();
         }
 
-        public static string FormatWithSuffix(BigInteger integer)
+        public static string FormatWithSuffix(this BigInteger integer)
         {
             var value = integer.ToString();
             if (value.Length <= 4)
