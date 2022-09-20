@@ -16,6 +16,9 @@ namespace Agava.SuffixBigIntegerUtils
 
             try
             {
+                if (property.type != "string")
+                    throw new Exception();
+
                 BigIntegerExtention.ToBigIntegerFromSuffixFormat(property.stringValue);
             }
             catch (Exception)
