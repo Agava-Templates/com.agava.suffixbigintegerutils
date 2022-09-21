@@ -38,11 +38,11 @@ etc.
 **Usage example:**
 ```cs
 BigInteger value = BigInteger.Parse("182394221");
-var suffixValue = value.FormatWithSuffix(); // suffixValue = 182.394M
+string suffixValue = value.FormatWithSuffix(); // suffixValue = 182.394M
 
-var suffixValue = "123.345B";
+string suffixValue = "123.345B";
 BigInteger value = suffixValue.ToBigIntegerFromSuffixFormat(); // value = 123345678900
 
-SerializeField, SuffixString] private string _value;
-SerializeField, SuffixString] private List<string> _valuesList;
+[SerializeField, SuffixString] private string _value;
+[SerializeField, SuffixString] private List<string> _valuesList;
 ```
